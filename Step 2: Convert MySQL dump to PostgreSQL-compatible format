@@ -1,0 +1,6 @@
+LOAD DATABASE
+     FROM mysql://root:password@localhost/mydb
+     INTO postgresql://postgres:password@localhost/mydb_pg
+
+ WITH include no drop, create tables, create indexes, reset sequences
+ SET work_mem to '16MB', maintenance_work_mem to '512 MB';
