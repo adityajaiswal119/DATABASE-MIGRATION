@@ -1,0 +1,2 @@
+# Export MySQL schema and data
+mysqldump -u root -p mydb > mydb.sql
