@@ -1,0 +1,5 @@
+-- In PostgreSQL, compare row counts:
+SELECT COUNT(*) FROM table_name;
+
+-- Sample validation:
+SELECT * FROM table_name ORDER BY id LIMIT 10;
